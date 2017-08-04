@@ -12,9 +12,8 @@ public class SoundController : MonoBehaviour {
     public AudioClip LoselSound;
     public AudioClip PressButtonSound;
     public AudioClip StopButtonSound;
-    public AudioClip BackgroundSound;
     public AudioClip CheckWinSound;
-
+   
     public static SoundController getInstance;
 
     void Awake()
